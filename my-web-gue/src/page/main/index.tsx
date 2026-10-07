@@ -171,7 +171,7 @@ export default function LandingPage() {
                 understand how the different parts of a digital product work
                 together.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-white">
                 Over the past six years, I have architected and maintained
                 full-stack production systems across early-stage B2B SaaS
                 platforms and high- throughput transactional hubs. I view modern
@@ -180,7 +180,7 @@ export default function LandingPage() {
                 should never be treated as superficial varnish on an unwieldy
                 backend.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-white">
                 As a <b>Full-Stack Developer</b>, I am interested in both sides
                 of the development process. On the frontend, I focus on creating
                 interfaces that are clean, responsive, intuitive, and
@@ -188,7 +188,7 @@ export default function LandingPage() {
                 logic, APIs, databases, and the systems that allow applications
                 to function reliably behind the scenes.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-white">
                 My approach to development combines{' '}
                 <b className="text-brand-200">
                   problem solving, structured thinking, clean code, and
@@ -198,7 +198,7 @@ export default function LandingPage() {
                 parts, finding practical solutions, and turning those solutions
                 into functional digital experiences.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-white">
                 As I continue developing my skills, I am exploring different
                 technologies, development practices, and ways to build better
                 applications. I am particularly interested in creating projects
@@ -207,7 +207,7 @@ export default function LandingPage() {
                   scalable, maintainable, and meaningful to their users.
                 </b>
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-white">
                 For me, software development is a continuous learning process.
                 Every project is an opportunity to understand something new,
                 improve my way of thinking, and create something better than
@@ -370,12 +370,12 @@ export default function LandingPage() {
                   ))}
                 </h1>
                 <div className="flex shrink-0 flex-wrap gap-3">
-                  <button className="btn bg-brand-100">
-                    <FaArrowsTurnRight className="text-white" />
+                  <button className="btn bg-brand-100 text-white">
+                    <FaArrowsTurnRight />
                     Live Demo
                   </button>
-                  <button className="btn bg-[#3E0F8D]">
-                    <FaGithub className="text-white" />
+                  <button className="btn bg-[#3E0F8D] text-white">
+                    <FaGithub />
                     GitHub
                   </button>
                 </div>
