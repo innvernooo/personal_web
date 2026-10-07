@@ -69,14 +69,14 @@ export default function LandingPage() {
           <div className="relative mt-28 flex w-full min-w-0 flex-col items-center gap-6 rounded-4xl bg-brand-300 p-6 shadow-xl/25 sm:p-10 xl:mt-30 xl:mr-20 xl:ml-20 xl:h-100 xl:w-fit xl:flex-row xl:justify-around xl:gap-0">
             <div className="relative flex items-center xl:h-80">
               <div className="text-center xl:ml-5 xl:text-left">
-                <p className="text-xl font-medium font-montserrat sm:text-2xl xl:text-3xl">
+                <p className="text-xl font-medium font-montserrat sm:text-2xl xl:text-3xl text-white">
                   Hello, I am
                 </p>
                 <h1 className="mt-1 wrap-break-word text-4xl text-yellow-400 font-playfair sm:text-5xl md:text-6xl xl:mt-0 xl:text-7xl">
                   Ariviano Sumantri
                 </h1>
                 <br className="hidden xl:block" />
-                <p className="mt-4 text-base font-montserrat sm:text-xl md:text-2xl xl:mt-0 xl:text-3xl">
+                <p className="mt-4 text-base font-montserrat sm:text-xl md:text-2xl xl:mt-0 xl:text-3xl text-white">
                   I am a <b className="text-brand-200">Full-Stack Developer</b>{' '}
                   focused on building modern, functional, and user-friendly
                   digital experiences.
@@ -153,12 +153,12 @@ export default function LandingPage() {
           <div className="mx-4 mt-2 h-fit rounded-2xl bg-brand-300 shadow-xl/25 sm:mx-8 xl:mt-7 xl:mr-0 xl:ml-20 xl:w-[60%]">
             <div className="p-4 font-montserrat sm:p-6 xl:p-4">
               <div className="mb-5 flex gap-2 text-xl sm:text-2xl xl:text-3xl">
-                <GiJourney className="shrink-0" />
+                <GiJourney className="shrink-0 text-white" />
                 <h1 className="font-cinzel font-bold text-yellow-400">
                   JOURNEY TO BECOME A FULL-STACK DEV.
                 </h1>
               </div>
-              <p>
+              <p className="text-white">
                 My journey into software development began with a simple
                 curiosity: <br className="hidden xl:block" />
                 <b className="text-brand-200">
@@ -371,11 +371,11 @@ export default function LandingPage() {
                 </h1>
                 <div className="flex shrink-0 flex-wrap gap-3">
                   <button className="btn bg-brand-100">
-                    <FaArrowsTurnRight />
+                    <FaArrowsTurnRight className="text-white" />
                     Live Demo
                   </button>
                   <button className="btn bg-[#3E0F8D]">
-                    <FaGithub />
+                    <FaGithub className="text-white" />
                     GitHub
                   </button>
                 </div>
@@ -435,7 +435,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="mx-4 mt-8 grid grid-cols-1 gap-6 sm:mx-8 md:grid-cols-2 md:[&>*:last-child]:col-span-2 xl:mx-10 xl:mt-15 xl:grid-cols-3 xl:gap-3 xl:[&>*:last-child]:col-span-1">
+        <div className="mx-4 mt-8 grid grid-cols-1 gap-6 sm:mx-8 md:grid-cols-2 md:[&>*:last-child]:col-span-2 xl:mx-10 xl:mt-15 xl:grid-cols-3 xl:gap-3 xl:[&>*:last-child]:col-span-1 text-white">
           <ExperienceCard
             year="2022 - Present"
             position="Senior Full-Stack Engineer"

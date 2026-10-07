@@ -57,7 +57,8 @@ export const testimonials = [
     backgroundColor: 'bg-brand-200',
     textColor: 'text-black',
     desc: '“Ariviano delivered beyond our expectations. His code quality and speed in React and Node are second to none.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Sarah Lin',
     position: 'VP of Product • NovaScale',
   },
@@ -65,7 +66,8 @@ export const testimonials = [
     backgroundColor: 'bg-brand-300',
     textColor: 'text-white',
     desc: '“Working with Ariviano was seamless. His communication was crystal clear and the project delivered ahead of schedule.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Marcus Vance',
     position: 'CTO • CloudCraft Systems',
   },
@@ -97,14 +99,16 @@ export const testimonials = [
     backgroundColor: 'bg-brand-300',
     textColor: 'text-white',
     desc: '“Ariviano brought a great balance of technical skill and attention to detail. From API development to responsive interfaces, every part of the project was handled with care.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Elena Rostova',
     position: 'Founder • Apex Design Studio',
   },
   {
     backgroundColor: 'bg-brand-200',
     desc: '“Working with Ariviano was a smooth experience from start to finish. He understood our requirements quickly, communicated clearly, and delivered a solution that exceeded our expectations.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Daniel Carter',
     position: 'Engineering Manager • BrightLayer Technologies',
   },
@@ -112,14 +116,16 @@ export const testimonials = [
     backgroundColor: 'bg-brand-300',
     textColor: 'text-white',
     desc: '“Ariviano is the kind of developer who looks beyond simply making things work. He thinks about performance, maintainability, and how the final product will be experienced by real users.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Sophia Bennett',
     position: 'Product Director • Vertex Labs',
   },
   {
     backgroundColor: 'bg-brand-200',
     desc: '“His ability to work across the entire stack made a significant difference to our project. He could combine them without losing sight of the bigger picture.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Ryan Mitchell',
     position: 'Senior Software Engineer • CodeFoundry',
   },
@@ -127,7 +133,8 @@ export const testimonials = [
     backgroundColor: 'bg-brand-300',
     textColor: 'text-white',
     desc: '“Ariviano was reliable, collaborative, and highly solution-oriented. He handled technical challenges calmly and always looked for ways to improve both the product and the development process.”',
-    imageUrl: 'src/assets/PP-2.jpg',
+    imageUrl:
+      'https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg',
     name: 'Emily Rodriguez',
     position: 'Head of Product • PixelCraft Studio',
   },

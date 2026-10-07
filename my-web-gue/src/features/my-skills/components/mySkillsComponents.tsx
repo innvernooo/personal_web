@@ -25,7 +25,7 @@ export const skillCards: SkillCard[] = [
     title: 'Front-End Architecture',
     desc: 'Crafting reactive, accessible interfaces that maintain smooth 60fps rendering and instant interaction feedback.',
     skills: [
-      { name: 'React & Next.js', level: '95% Advanced', value: 95 },
+      { name : 'React & Next.js', level: '95% Advanced', value: 95 },
       { name: 'TypeScript & ES6+', level: '92% Advanced', value: 92 },
       { name: 'Tailwind CSS & DaisyUI', level: '96% Mastery', value: 96 },
     ],
@@ -33,7 +33,7 @@ export const skillCards: SkillCard[] = [
       'Component modularity, tree-shaking, strict hydration safety in Next.js, and WCAG AA compliance.',
     cardBg: 'bg-brand-300',
     titleColor: 'text-brand-200',
-    textColor: '',
+    textColor: 'text-white',
     progressColor: 'text-brand-200',
   },
   {
@@ -67,7 +67,7 @@ export const skillCards: SkillCard[] = [
       'Zero-downtime rolling deploys, reproducible build environments, and automated regression suites.',
     cardBg: 'bg-brand-300',
     titleColor: 'text-brand-200',
-    textColor: '',
+    textColor: 'text-white',
     progressColor: 'text-brand-200',
   },
 ];
