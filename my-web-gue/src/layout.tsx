@@ -57,10 +57,10 @@ export default function Layout() {
   return (
     <>
       <header className="fixed top-0 z-50 h-17 w-full flex justify-center items-center bg-brand-400 px-4 2xl:px-0">
-        <RiRobot3Line className="mr-2 shrink-0 text-4xl sm:text-5xl" />
+        <RiRobot3Line className="mr-2 shrink-0 text-4xl sm:text-5xl text-white" />
         <div className="relative flex min-w-0 flex-1 items-center justify-between gap-4 h-18 2xl:flex-none 2xl:w-350 2xl:gap-7">
           <div className="min-w-0">
-            <div className="truncate text-lg font-bold font-sans sm:text-2xl">
+            <div className="truncate text-lg font-bold font-sans sm:text-2xl text-white">
               Ariviano Sumantri
             </div>
             <div className="truncate text-xs font-semibold text-brand-200 sm:text-base xl:hidden 2xl:block">
@@ -112,7 +112,7 @@ export default function Layout() {
         <LandingPage />
       </div>
 
-      <footer className="relative flex w-full items-center justify-center bg-brand-400 mt-16 py-10 xl:mt-25 xl:h-70 xl:py-0">
+      <footer className="relative flex w-full items-center justify-center bg-brand-400 mt-16 py-10 xl:mt-25 xl:h-70 xl:py-0 text-white">
         <div className="flex w-full flex-col items-center gap-8 px-5 md:px-10 xl:m-10 xl:h-60 xl:flex-row xl:justify-around xl:px-0">
           <div className="w-full max-w-2xl xl:w-auto xl:max-w-none">
             <div className="flex items-center gap-1.5">
